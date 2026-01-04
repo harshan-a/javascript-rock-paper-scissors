@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(25, 25, 25);
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+}
+.myPick-btn{
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  border: 3px solid white;
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.move-img{
+  width: 50px;
+}
+.result{
+  margin-top: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.reset-btn,
+.autoplay-btn{
+  padding: 8px 15px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+.reset-error {
+  padding-top: 4px;
+  font-size: 14px;
+  color: rgba(255, 174, 0, 0.842);
+
+}
